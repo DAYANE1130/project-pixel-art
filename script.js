@@ -17,9 +17,7 @@
  
 function colorPixel(){
     let pixel = document.querySelectorAll('.pixel');
-    let color = document.querySelectorAll('.color');
-    
-    for(let index= 0; index < pixel.length; index += 1){
+   for(let index= 0; index < pixel.length; index += 1){
     pixel[index].addEventListener('click', function(){
     pixel[index].style.backgroundColor = corDoMomento; 
     });
